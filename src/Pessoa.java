@@ -29,15 +29,16 @@ public void setNome(String nome) {
 
 public void setEmail(String email) {
 
-    this.nome = email;
+    this.email = email;
+}
+
+
+@Override
+public String toString() {
+    return "Pessoa [nome=" + nome + ", email=" + email + "]";
 }
     
 
-public String toString(){
-
-    return "Nome: " + this.nome + ", Email: " + this.email;
-}
-    
 
 
 }
