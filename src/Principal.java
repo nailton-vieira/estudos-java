@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Principal {
 
@@ -37,7 +38,16 @@ public class Principal {
 
            System.out.println(listaPessoas);
 
-           
+           Scanner digEnt = new Scanner(System.in);
+            System.out.println("Digite um texto abaixo");
+
+           String ViewTexto = digEnt.nextLine();
+
+           System.out.println("Voce digitou:" + ViewTexto);
+
+           digEnt.close();
+
+
         
     }
 
